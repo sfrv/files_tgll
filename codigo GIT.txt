@@ -1,5 +1,5 @@
 -------COMANDO PARA CAMBIAR DE RAMA
-git checkout NOMBRE_DE_LA_RAMA -- ME SITUA EN UNA NUEVA RAMA (git checkout develop - me situa en la rama develop)
+git checkout NOMBRE_DE_LA_RAMA -- (git checkout develop - me situa en la rama develop)
 
 -------COMANDO PARA CREAR UNA RAMA Y CLONAR DE LA RAMA ACTUAL A LA NUEVA RAMA
 /digitalizacion (develop)
