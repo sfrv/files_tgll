@@ -1,0 +1,33 @@
+-------COMANDO PARA CAMBIAR DE RAMA
+git checkout NOMBRE_DE_LA_RAMA -- ME SITUA EN UNA NUEVA RAMA (git checkout develop - me situa en la rama develop)
+
+-------COMANDO PARA CREAR UNA RAMA Y CLONAR DE LA RAMA ACTUAL A LA NUEVA RAMA
+/digitalizacion (develop)
+git checkout -b serguito -- CREA LA RAMA "serguito" Y CLONA LO QUE TIENE "develop" A "serguito"'
+
+
+-------COMANDO PARA VER MI RAMA REMOTA
+git remote -v
+
+-------COMANDO PARA VER SI TENGO CAMBIOS O NO
+git status //SI QUIERO CAMBIAR DE RAMA, MI "GIT STATUS" TIENE QUE ESTAR LIMPIO (On branch serguito "\n" nothing to commit, working tree clean)
+
+-------COMANDO PARA GUARDAR CAMBIOS EN MI RAMA
+git add .
+git commit -m "Mensaje Cualquiera"
+
+-------COMANDO PARA TRAER TODOS LOS CAMBIOS DE DEVELOP A MI RAMA REMETA ORIGIN (ACTUALIZAR CAMBIOS DE DEVELOP)
+git pull origin develop
+
+-------COMANDO PARA MESCLAR LA RAMA DEVELP SERGUITO
+/digitalizacion (serguito)
+git merge develop
+
+-------COMANDO PARA LISTAR LAS RAMAS
+git branch
+
+-------COMANDO PARA ELIMINAR UNA RAMA
+git branch -D NOMBRE_RAMA
+
+
+
